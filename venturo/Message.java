@@ -1,9 +1,11 @@
 package venturo;
 
+import java.awt.Graphics;
+
 public class Message {
 	
-	public static void send(String text) {
-		System.out.println(text);
+	public static void send(Graphics g, String text, int x, int y) {
+		g.drawString(text, x, y);
 	}
 	
 	public static String capitalize(String text) {

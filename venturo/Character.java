@@ -19,6 +19,10 @@ public class Character {
 		return Character.coins = coins;
 	}
 	
+	public static int addWealth(int coins) {
+		return Character.coins += coins;
+	}
+	
 	public static LOCATION setLocation(LOCATION loc) {
 		return Character.location = loc;
 	}
